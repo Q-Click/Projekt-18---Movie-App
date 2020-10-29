@@ -2,14 +2,14 @@
 
 .App {
   text-align: center;
-  background-image: linear-gradient(215deg, #254876, #073d71, #052b4f, #03182c, #010c15);
+  background-image: linear-gradient(215deg, #582576, #580771, #2b054f, #18032c, #0a0115);
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #9ca8b4;
+  color: #ad9cb4;
   font-family: 'baloo chettan';
   min-height: 100vh;
 }
@@ -32,13 +32,13 @@
 }
 
 .inputbtn input{
-  background: #cccfd2;
+  background: #d0ccd2;
   letter-spacing: 0.02em;
 }
 
 .search-btn span{
-  color: #9ca8b4;
-  background: #425379;
+  color: #ad9cb4;
+  background: #604279;
   border: none;
 }
 
@@ -48,7 +48,7 @@
 }
 
 span:hover{
-  color: #bcd0e3
+  color: #d3bce3
 }
 
 .body{
@@ -73,11 +73,11 @@ span:hover{
   font-size: 15px;
   height: 299px;
   background: none;
-  color: #9ca8b4
+  color: #ad9cb4
 }
 
 .card img {
-  box-shadow: -5px 5px 10px #020a11;
+  box-shadow: -5px 5px 10px #0b0211;
   margin: 0
 }
 
@@ -96,7 +96,7 @@ span:hover{
   border-radius: 22.5px;
   font-size: 1.1em;
   line-height: 45px;
-  color: #002346
+  color: #2a0046
 }
 .card-body, .card-body p, .card-body h5{
   margin: 0;
@@ -111,18 +111,18 @@ span:hover{
 
 .card-body p {
   font-size: 12px;
-  color: #5a7187
+  color: #735a87
 }
 
 .footer{
   width: 1000px;
   height: 60px;
-  /* background: #9ca8b4 */
+  /* background: #ad9cb4 */
 }
 .line{
   width: 1000px;
   height: 2px;
-  background: #9ca8b4
+  background: #ad9cb4
 }
 .footDesc{
   width: 80%;
@@ -168,7 +168,7 @@ span:hover{
 }
 .fallBack b{
   font-weight: 100;
-  color: #5f7d9b
+  color: #835f9b
 }
 
 .fallBack b:hover{
@@ -185,7 +185,7 @@ span:hover{
 .details img{
   float: left;
   margin: 0 25px;
-  box-shadow: -15px 15px 15px #020a11;
+  box-shadow: -15px 15px 15px #0b0211;
 }
 .details h5{
   font-size: .55em;
@@ -201,14 +201,14 @@ span:hover{
 }
 
 .details button{
-   color: #9ca8b4;
-   background: #394c75;
+   color: #ad9cb4;
+   background: #5f3975;
    border: none;
 }
 
 .details button:hover{
-  background: #425379;
-  color: #bcd0e3
+  background: #604279;
+  color: #d0bce3
 }
 
 .details button:focus {

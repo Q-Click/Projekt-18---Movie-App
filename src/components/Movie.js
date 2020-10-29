@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-import Fallback from "../NoResult/NoResult";
+import Fallback from "./NoResult";
 
 class Movie extends Component {
   render() {
@@ -9,7 +9,6 @@ class Movie extends Component {
     } else if (this.props.movie.length === 0) {
       movies.push(<Fallback click={this.props.click} key={1} />);
     } else if (this.props.movie) {
-      console.log(this.props.movie);
       this.props.movie.map((m, i) => {
         return movies.push(
           <div className="movie" key={i}>
@@ -20,13 +19,15 @@ class Movie extends Component {
                 alt="123"
                 onClick={() => this.props.selClick(m)}
               />
-              <div className="rating">{m.rating}</div>
+              <div className="rating">{m.rating.toFixed(1)}</div>
               <div className="card-body">
                 <h5 className="card-title">
                   {m.title.length > 20 ? m.title.slice(0, 25) + "..." : m.title}
                 </h5>
                 <p className="card-text">
-                  {m.genre[0]}, {m.genre[1]}
+                  {m.genre.length > 1
+                    ? `${m.genre[0]}, ${m.genre[1]}`
+                    : m.genre[0]}
                 </p>
               </div>
             </div>
